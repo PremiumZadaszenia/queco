@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" width="1280" height="360" role="img" aria-label="AirRoast">
+<g transform="translate(24, 28) scale(1.55)">
+  <ellipse cx="40" cy="40" rx="23" ry="33" fill="#FBF3E6"/>
+  <path d="M40 13.5 C 53 26, 27 54, 40 66.5" fill="none" stroke="#8C2F2B" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M47 22 C 54 18, 60 22, 58 29" fill="none" stroke="#9DBA4E" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M51 28 C 58 25, 63 30, 60 36" fill="none" stroke="#9DBA4E" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <text x="188" y="118" font-family="Cormorant Garamond, serif" font-size="86" font-weight="500" fill="#FBF3E6">Air<tspan fill="#5C8CFF">R</tspan>oast</text>
+</svg>
