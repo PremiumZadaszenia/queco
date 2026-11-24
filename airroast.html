@@ -27,15 +27,16 @@
       <a href="trading.html">Trading</a>
       <a class="nav-cta" href="index.html#kontakt">Kontakt</a>
     </nav>
-    <details class="mob">
-      <summary>Menu</summary>
-      <nav aria-label="Działy">
+    <div class="mob">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-mobilne">Menu</button>
+      <nav id="menu-mobilne" class="mob-nav" hidden aria-label="Działy">
         <a href="boxy-cargo.html">Boxy Cargo</a>
         <a href="airroast.html" aria-current="page">AirRoast</a>
         <a href="trading.html">Trading</a>
         <a href="index.html#kontakt">Kontakt</a>
+        <button class="nav-close" type="button">Zamknij</button>
       </nav>
-    </details>
+    </div>
   </div>
 </header>
 
@@ -114,18 +115,27 @@
     <div>
       <a class="footer-logo" href="index.html" aria-label="Queco — strona główna"><img src="assets/logo.svg" alt="" width="682" height="158"></a>
       <p>Innowacyjne rozwiązania. Polska.</p>
-      <p><a href="mailto:quecosklep@gmail.com">quecosklep@gmail.com</a></p>
+      <p><a class="footer-hit" href="mailto:quecosklep@gmail.com">quecosklep@gmail.com</a></p>
     </div>
     <div>
       <h2>Działy</h2>
-      <p><a href="boxy-cargo.html">Boxy Cargo</a><br><a href="airroast.html">AirRoast</a><br><a href="trading.html">Trading</a></p>
+      <ul class="footer-links">
+        <li><a href="boxy-cargo.html">Boxy Cargo</a></li>
+        <li><a href="airroast.html">AirRoast</a></li>
+        <li><a href="trading.html">Trading</a></li>
+      </ul>
     </div>
     <div>
       <h2>Queco</h2>
-      <p><a href="index.html#o-nas">O marce</a><br><a href="index.html#dlaczego">Dlaczego Queco</a><br><a href="index.html#kontakt">Kontakt</a></p>
+      <ul class="footer-links">
+        <li><a href="index.html#o-nas">O marce</a></li>
+        <li><a href="index.html#dlaczego">Dlaczego Queco</a></li>
+        <li><a href="index.html#kontakt">Kontakt</a></li>
+      </ul>
       <p class="legal">© 2026 Queco. Ta strona nie używa ciasteczek i&nbsp;niczego nie śledzi.</p>
     </div>
   </div>
 </footer>
+<script src="assets/nav.js"></script>
 </body>
 </html>

@@ -26,15 +26,16 @@
       <a href="trading.html" aria-current="page">Trading</a>
       <a class="nav-cta" href="index.html#kontakt">Kontakt</a>
     </nav>
-    <details class="mob">
-      <summary>Menu</summary>
-      <nav aria-label="Działy">
+    <div class="mob">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-mobilne">Menu</button>
+      <nav id="menu-mobilne" class="mob-nav" hidden aria-label="Działy">
         <a href="boxy-cargo.html">Boxy Cargo</a>
         <a href="airroast.html">AirRoast</a>
         <a href="trading.html" aria-current="page">Trading</a>
         <a href="index.html#kontakt">Kontakt</a>
+        <button class="nav-close" type="button">Zamknij</button>
       </nav>
-    </details>
+    </div>
   </div>
 </header>
 
@@ -99,18 +100,28 @@
     <div>
       <a class="footer-logo" href="index.html" aria-label="Queco — strona główna"><img src="assets/logo.svg" alt="" width="682" height="158"></a>
       <p>Innowacyjne rozwiązania. Polska.</p>
-      <p><a href="mailto:quecosklep@gmail.com">quecosklep@gmail.com</a></p>
+      <p><a class="footer-hit" href="mailto:quecosklep@gmail.com">quecosklep@gmail.com</a></p>
     </div>
     <div>
       <h2>Działy</h2>
-      <p><a href="boxy-cargo.html">Boxy Cargo</a><br><a href="airroast.html">AirRoast</a><br><a href="trading.html">Trading</a></p>
+      <ul class="footer-links">
+        <li><a href="boxy-cargo.html">Boxy Cargo</a></li>
+        <li><a href="airroast.html">AirRoast</a></li>
+        <li><a href="trading.html">Trading</a></li>
+      </ul>
     </div>
     <div>
       <h2>Kategorie</h2>
-      <p><a href="#opakowania">Opakowania</a><br><a href="#olej">Olej</a><br><a href="#drewno">Drewno</a><br><a href="#plyty">Płyty</a></p>
+      <ul class="footer-links">
+        <li><a href="#opakowania">Opakowania</a></li>
+        <li><a href="#olej">Olej</a></li>
+        <li><a href="#drewno">Drewno</a></li>
+        <li><a href="#plyty">Płyty</a></li>
+      </ul>
       <p class="legal">© 2026 Queco. Ta strona nie używa ciasteczek i&nbsp;niczego nie śledzi.</p>
     </div>
   </div>
 </footer>
+<script src="assets/nav.js"></script>
 </body>
 </html>

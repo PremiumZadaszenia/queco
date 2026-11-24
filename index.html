@@ -27,15 +27,16 @@
       <a href="trading.html">Trading</a>
       <a class="nav-cta" href="#kontakt">Kontakt</a>
     </nav>
-    <details class="mob">
-      <summary>Menu</summary>
-      <nav aria-label="Działy">
+    <div class="mob">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-mobilne">Menu</button>
+      <nav id="menu-mobilne" class="mob-nav" hidden aria-label="Działy">
         <a href="boxy-cargo.html">Boxy Cargo</a>
         <a href="airroast.html">AirRoast</a>
         <a href="trading.html">Trading</a>
         <a href="#kontakt">Kontakt</a>
+        <button class="nav-close" type="button">Zamknij</button>
       </nav>
-    </details>
+    </div>
   </div>
 </header>
 
@@ -174,12 +175,12 @@
       <div class="contact-panel">
         <p class="kicker">Kontakt</p>
         <h2>Napisz w&nbsp;swojej sprawie</h2>
-        <p class="muted">Jeden adres do wszystkich działów. W&nbsp;tytule wystarczy nazwa działu i&nbsp;krótko, czego potrzebujesz.</p>
+        <p class="muted">Jeden adres do wszystkich działów. Wybierz dział, a&nbsp;temat wiadomości uzupełni się sam.</p>
         <a class="mail" href="mailto:quecosklep@gmail.com">quecosklep@gmail.com</a>
         <div class="topic-links">
-          <a href="mailto:quecosklep@gmail.com?subject=Boxy%20Cargo%20%E2%80%94%20pytanie%20o%20produkt">Boxy Cargo — pytanie o produkt</a>
-          <a href="mailto:quecosklep@gmail.com?subject=AirRoast%20%E2%80%94%20daj%20zna%C4%87%20o%20starcie">AirRoast — daj znać o starcie</a>
-          <a href="mailto:quecosklep@gmail.com?subject=Queco%20International%20Trading%20%E2%80%94%20zapytanie%20ofertowe">Trading — zapytanie ofertowe</a>
+          <a href="mailto:quecosklep@gmail.com?subject=Zapytanie%20%E2%80%93%20Boxy%20Cargo">Zapytanie – Boxy Cargo</a>
+          <a href="mailto:quecosklep@gmail.com?subject=Zapytanie%20%E2%80%93%20AirRoast">Zapytanie – AirRoast</a>
+          <a href="mailto:quecosklep@gmail.com?subject=Zapytanie%20%E2%80%93%20Trading">Zapytanie – Trading</a>
         </div>
       </div>
     </div>
@@ -191,18 +192,27 @@
     <div>
       <a class="footer-logo" href="index.html" aria-label="Queco — strona główna"><img src="assets/logo.svg" alt="" width="682" height="158"></a>
       <p>Innowacyjne rozwiązania. Polska.</p>
-      <p><a href="mailto:quecosklep@gmail.com">quecosklep@gmail.com</a></p>
+      <p><a class="footer-hit" href="mailto:quecosklep@gmail.com">quecosklep@gmail.com</a></p>
     </div>
     <div>
       <h2>Działy</h2>
-      <p><a href="boxy-cargo.html">Boxy Cargo</a><br><a href="airroast.html">AirRoast</a><br><a href="trading.html">Trading</a></p>
+      <ul class="footer-links">
+        <li><a href="boxy-cargo.html">Boxy Cargo</a></li>
+        <li><a href="airroast.html">AirRoast</a></li>
+        <li><a href="trading.html">Trading</a></li>
+      </ul>
     </div>
     <div>
       <h2>Na stronie</h2>
-      <p><a href="#o-nas">O marce</a><br><a href="#dlaczego">Dlaczego Queco</a><br><a href="#kontakt">Kontakt</a></p>
+      <ul class="footer-links">
+        <li><a href="#o-nas">O marce</a></li>
+        <li><a href="#dlaczego">Dlaczego Queco</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
       <p class="legal">© 2026 Queco. Ta strona nie używa ciasteczek i&nbsp;niczego nie śledzi. Dane producenta linii Boxy Cargo są na stronie tego działu.</p>
     </div>
   </div>
 </footer>
+<script src="assets/nav.js"></script>
 </body>
 </html>
